@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleAtv15.css">
+    <title>Atividade 15</title>
+    <script src="scriptAtv15.js"></script>
+</head>
+
+<body>
+    <h1> Formulário principal</h1>
+    <hr>
+    <form action="teste" method="POST" name="formulario" id="formulario1" onsubmit="return validarDados();">
+
+        <div id="principal" width=200 heigth=200 align=center>
+            <div id="dados">
+                Nome Completo:
+                <input name="nome" type="text" id="idNome" size="52" maxlength="150">
+                <br>
+                <br> E-Mail :
+                <input name="email" type="email" id="idEmail" size="52" maxlength="150">
+                <br>
+                <br> Mensagem :
+                <textarea name="mensagem" cols="50" rows="8" id="idMensagem" value="" input></textarea>
+                <br>
+                <br>
+            </div>
+
+            <div id="pesquisa">
+                <h2>
+                    Pesquisa:
+                </h2>
+                <br>
+                Esse é o seu primeiro acesso?
+                <br>
+                Sim
+                <input name="pesquisa" type="radio" value="Sim">
+                Não
+                <input name="pesquisa" type="radio" value="Não">
+                <br>
+            </div>
+
+            <br>
+            <input name="submit" type="submit" form="formulario1" value="Enviar">
+            <input name="reset" type="reset" form="formulario1" value="Limpar">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+hr {
+  width: 70%;
+  
+}
+
+form {
+  margin-top: 3%;
+}
+
+#dados {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+
+#pesquisa {
+  margin: 2%;
+}
