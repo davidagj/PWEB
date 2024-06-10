@@ -5,7 +5,7 @@ import dataMocked from '../../constants/mocado';
 
 
 const Summary: FC = () => {
-  const [tasks, setTasks] = useState({dataMocked});
+  
 
   const highPriorityTasks = dataMocked.filter(dataMocked => dataMocked.priority === 'alta').length;
   const mediumPriorityTasks = dataMocked.filter(dataMocked => dataMocked.priority === 'média').length;
