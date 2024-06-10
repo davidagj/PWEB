@@ -1,4 +1,4 @@
-import {FC, useState} from 'react';
+import {FC} from 'react';
 import { Typography } from '@mui/material';
 import dataMocked from '../../constants/mocado';
 
