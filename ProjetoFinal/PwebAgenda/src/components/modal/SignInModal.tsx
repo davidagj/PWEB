@@ -11,7 +11,7 @@ import { SignInData } from '../../interfaces/SignInForm';
 import SignInUserForm from '../taskForm/SignInForm';
 
 const SignInModal = () => {
-  const [open, setOpen] = useState(true);// valor inicial
+  const [open, setOpen] = useState(false);
   const handleClose = () => setOpen(false);
 
   const [userData, setUserData] = useState<UserData>({
