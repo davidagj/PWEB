@@ -27,6 +27,7 @@ const SignInModal = () => {
   });
 
 const acessarConta = async () => {
+   handleClose();
     try {
       const res = await signIn(signInData);
       if (!res.success) throw new Error(res?.message ?? "Ocorreu um erro");
@@ -40,6 +41,7 @@ const acessarConta = async () => {
 
 
   const criarConta = async () => {
+     handleClose();
     try {
       const res = await register(userData);
       if (!res.success) throw new Error(res?.message ?? "Ocorreu um erro");
